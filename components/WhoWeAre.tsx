@@ -1,31 +1,30 @@
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 import NextButton from "./button";
 import RadialGradient from "./magicui/radial-gradient";
 import LinearGradient from "./magicui/linear-gradient";
+import Lenis from "lenis";
 
 function WhoWeAre() {
+  
   return (
     <>
-   
       <div className="relative  px-8 pb-16 lg:pb-24 ">
-      <Image
-    src="/kseniya-lapteva-9oqHatKA8SI-unsplash.jpg"
-    fill
-    quality={100}
-    
-    style={{
-      objectFit: "cover",
-      zIndex: 0,
-        position: 'absolute',
-     top:0,
-     left:0,
-      height: "100%",
-      width: "100%",
-    }}
-    alt=""
-    />
+        <Image
+          src="/kseniya-lapteva-9oqHatKA8SI-unsplash.jpg"
+          fill
+          quality={100}
+          style={{
+            objectFit: "cover",
+            zIndex: 0,
+            position: "absolute",
+            top: 0,
+            left: 0,
+            height: "100%",
+            width: "100%",
+          }}
+          alt=""
+        />
         <div className="grid grid-cols-1 lg:grid-cols-3 max-w-screen-xl m-auto gap-8 -translate-y-16 ">
           <div className="bg-white bg-cover   hover:bg-[url('/whoweare.jpg')] hover:text-white cursor-pointer p-8 lg:py-16 flex flex-col items-center text-center gap-4 rounded-tl-[35px] rounded-br-[35px] shadow-2xl ">
             <Image

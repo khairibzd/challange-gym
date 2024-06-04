@@ -5,6 +5,8 @@ import {Navbar, NavbarBrand, NavbarMenuToggle, NavbarMenuItem, NavbarMenu, Navba
 import { ThemeSwitch } from "./theme-switch";
 import { siteConfig } from "@/config/site";
 import Link from "next/link";
+import { Roboto } from 'next/font/google'
+ 
 
 export  function Navbarr() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -31,7 +33,6 @@ export  function Navbarr() {
          width={90}
          height={90}
      src="/logo-gym-removebg-preview.png"
-     
      alt={"test"}
       />
 
@@ -48,7 +49,7 @@ export  function Navbarr() {
        <Image 
          width={90}
          height={30}
-     src="/logo-gym-removebg-preview.png"
+         src="/logo-gym-removebg-preview.png"
      
      alt={"test"}
       />
@@ -59,7 +60,7 @@ export  function Navbarr() {
        {siteConfig.navItems.map((item, index) => (
 
        <NavbarItem key={`${item}-${index}`}>
-         <Link color="foreground" href={item.href} >
+         <Link color="foreground" href={item.href}   >
            {item.label}
          </Link>
        </NavbarItem>
