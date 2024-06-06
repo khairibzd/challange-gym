@@ -6,10 +6,13 @@ import { ThemeSwitch } from "./theme-switch";
 import { siteConfig } from "@/config/site";
 import Link from "next/link";
 import { Roboto } from 'next/font/google'
+import { useTogglerContext } from "./context/toggler";
  
 
 export  function Navbarr() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+  const {  setAboutSidebar } = useTogglerContext();
+
 
 
   return (
@@ -35,10 +38,10 @@ export  function Navbarr() {
      src="/logo-gym-removebg-preview.png"
      alt={"test"}
       />
-
-
+      
            {/* <p className="font-bold text-inherit">CHALLENGE GYM</p> */}
        </NavbarBrand>
+       
      </NavbarContent>
 
      
@@ -53,6 +56,8 @@ export  function Navbarr() {
      
      alt={"test"}
       />
+     
+
        <p className="font-bold text-inherit">CHALLENGE GYM</p>
        </NavbarBrand>
    </NavbarContent>
@@ -79,11 +84,17 @@ export  function Navbarr() {
         
 
        </NavbarItem>
-       {/* <NavbarItem>
-       <ThemeSwitch />
+        <NavbarItem>
+        <button
+            onClick={() => setAboutSidebar(true)}
+            className="text-2xl hover:text-[#FF0336] ease-in duration-200"
+          >
+            <i className="fa-regular fa-chart-bar"></i>
+          </button>
+       {/* <ThemeSwitch /> */}
         
 
-       </NavbarItem> */}
+       </NavbarItem> 
  
      </NavbarContent>
 
