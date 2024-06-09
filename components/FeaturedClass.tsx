@@ -21,8 +21,26 @@ function FeaturedClass() {
         </h1>
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 lg:gap-4 lg:mt-4">
           <div className="group h-[20rem] lg:col-span-2 flex items-end relative p-6 overflow-hidden cursor-pointer">
-            <div className="bg-[hsla(0,0%,100%,.3)]  rounded-tr-[50px] rounded-br-[50%] absolute top-[20%] -left-[3.125rem] w-[8.75rem] h-[4.375rem] rotate-[30deg] z-10 after:absolute after:scale-[.7] "></div>
-            <div className="absolute inset-0 bg-[url('/featuredClassImg/cycling.jpg')] bg-cover bg-[50%] grayscale group-hover:grayscale-0 group-hover:scale-125 duration-300 ease-linear"></div>
+            {/* <div className="bg-[hsla(0,0%,100%,.3)]  rounded-tr-[50px] rounded-br-[50%] absolute top-[20%] -left-[3.125rem] w-[8.75rem] h-[4.375rem] rotate-[30deg] z-10 after:absolute after:scale-[.7] "></div> */}
+            {/* <div className="absolute inset-0 bg-[url('/featuredClassImg/cycling.jpg')] bg-cover bg-[50%] grayscale group-hover:grayscale-0 group-hover:scale-125 duration-300 ease-linear"></div> */}
+            <div className="absolute inset-0 $ grayscale group-hover:grayscale-0 group-hover:scale-125 duration-300 ease-linear">
+              <Image
+                src="/featuredClassImg/cycling.jpg"
+                alt="Cycling"
+                layout="fill"
+                placeholder="blur"
+                blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADA..."
+                quality={100}
+                
+                style={{
+                  objectFit: "cover",
+
+                  height: "100%",
+                  width: "100%",
+                }}
+              />
+            </div>
+
             <div className="space-y-4 text-white grayscale-0">
               <h1 className="font-bold text-3xl">Cycling</h1>
               <p className="bg-[#fbbf24] px-4 py-1">
@@ -31,40 +49,121 @@ function FeaturedClass() {
             </div>
           </div>
           <div className="group h-[20rem] flex items-end relative p-6 overflow-hidden cursor-pointer">
-            <div className="bg-[hsla(0,0%,100%,.3)] rounded-tr-[50px] rounded-br-[50%] absolute top-[20%] -left-[3.125rem] w-[8.75rem] h-[4.375rem] rotate-[30deg] z-10 "></div>
-            <div className="absolute inset-0 bg-[url('/featuredClassImg/karate.jpg')] bg-cover bg-[50%] grayscale group-hover:grayscale-0 group-hover:scale-125 duration-300 ease-linear"></div>
+            {/* <div className="bg-[hsla(0,0%,100%,.3)] rounded-tr-[50px] rounded-br-[50%] absolute top-[20%] -left-[3.125rem] w-[8.75rem] h-[4.375rem] rotate-[30deg] z-10 "></div> */}
+            <div className="absolute inset-0 $ grayscale group-hover:grayscale-0 group-hover:scale-125 duration-300 ease-linear">
+              <Image
+                src="/featuredClassImg/karate.jpg"
+                alt="Cycling"
+                layout="fill"
+                placeholder="blur"
+                blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADA..."
+                quality={100}
+                style={{
+                  objectFit: "cover",
+
+                  height: "100%",
+                  width: "100%",
+                }}
+              />
+            </div>
             <div className="space-y-4 text-white grayscale-0">
               <h1 className="font-bold text-3xl">Karate</h1>
               <p className="bg-[#fbbf24] px-4 py-1">Friday: 10:00am-11:00am</p>
             </div>
           </div>
           <div className="group h-[20rem] flex items-end relative p-6 overflow-hidden cursor-pointer">
-            <div className="bg-[hsla(0,0%,100%,.3)]  rounded-tr-[50px] rounded-br-[50%] absolute top-[20%] -left-[3.125rem] w-[8.75rem] h-[4.375rem] rotate-[30deg] z-10 "></div>
-            <div className="absolute inset-0 bg-[url('/featuredClassImg/power.jpg')] bg-cover bg-[50%] grayscale group-hover:grayscale-0 group-hover:scale-125 duration-300 ease-linear"></div>
+            {/* <div className="bg-[hsla(0,0%,100%,.3)]  rounded-tr-[50px] rounded-br-[50%] absolute top-[20%] -left-[3.125rem] w-[8.75rem] h-[4.375rem] rotate-[30deg] z-10 "></div> */}
+            <div className="absolute inset-0 $ grayscale group-hover:grayscale-0 group-hover:scale-125 duration-300 ease-linear">
+              <Image
+                src="/featuredClassImg/power.jpg"
+                alt="Cycling"
+                layout="fill"
+                placeholder="blur"
+                blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADA..."
+                quality={100}
+                style={{
+                  objectFit: "cover",
+
+                  height: "100%",
+                  width: "100%",
+                }}
+              />
+            </div>{" "}
             <div className="space-y-4 text-white grayscale-0">
               <h1 className="font-bold text-3xl">Power</h1>
               <p className="bg-[#fbbf24] px-4 py-1">Saturday: 9:00am-10:00am</p>
             </div>
           </div>
           <div className="group h-[20rem] flex items-end relative p-6 overflow-hidden cursor-pointer">
-            <div className="bg-[hsla(0,0%,100%,.3)]  rounded-tr-[50px] rounded-br-[50%] absolute top-[20%] -left-[3.125rem] w-[8.75rem] h-[4.375rem] rotate-[30deg] z-10 "></div>
-            <div className="absolute inset-0 bg-[url('/featuredClassImg/meditation.jpg')] bg-cover bg-[50%] grayscale group-hover:grayscale-0 group-hover:scale-125 duration-300 ease-linear"></div>
+            {/* <div className="bg-[hsla(0,0%,100%,.3)]  rounded-tr-[50px] rounded-br-[50%] absolute top-[20%] -left-[3.125rem] w-[8.75rem] h-[4.375rem] rotate-[30deg] z-10 "></div> */}
+            <div className="absolute inset-0 $ grayscale group-hover:grayscale-0 group-hover:scale-125 duration-300 ease-linear">
+              <Image
+                src="/featuredClassImg/meditation.jpg"
+                alt="Cycling"
+                layout="fill"
+                placeholder="blur"
+                blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADA..."
+                quality={100}
+                style={{
+                  objectFit: "cover",
+
+                  height: "100%",
+                  width: "100%",
+                }}
+              />
+            </div>{" "}
             <div className="space-y-4 text-white grayscale-0">
               <h1 className="font-bold text-3xl">Meditation</h1>
               <p className="bg-[#fbbf24] px-4 py-1">Friday: 1:00pm-2:00pm</p>
             </div>
           </div>
           <div className="group h-[20rem] flex items-end relative p-6 overflow-hidden cursor-pointer">
-            <div className="bg-[hsla(0,0%,100%,.3)]  rounded-tr-[50px] rounded-br-[50%] absolute top-[20%] -left-[3.125rem] w-[8.75rem] h-[4.375rem] rotate-[30deg] z-10 "></div>
-            <div className="absolute inset-0 bg-[url('/featuredClassImg/materialsArt.jpg')] bg-cover bg-[50%] grayscale group-hover:grayscale-0 group-hover:scale-125 duration-300 ease-linear"></div>
+            {/* <div className="bg-[hsla(0,0%,100%,.3)]  rounded-tr-[50px] rounded-br-[50%] absolute top-[20%] -left-[3.125rem] w-[8.75rem] h-[4.375rem] rotate-[30deg] z-10 "></div> */}
+            <div className="absolute inset-0 $ grayscale group-hover:grayscale-0 group-hover:scale-125 duration-300 ease-linear">
+              <Image
+                src="/featuredClassImg/materialsArt.jpg"
+                alt="Cycling"
+                layout="fill"
+                placeholder="blur"
+                blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADA..."
+                quality={100}
+                style={{
+                  objectFit: "cover",
+                  // zIndex: 0,
+                  //   // position: 'absolute',
+                  // top: 0,
+                  // left: 0,
+                  // height: "100%",
+                  // width: "100%",
+                }}
+              />
+            </div>{" "}
             <div className="space-y-4 text-white grayscale-0">
               <h1 className="font-bold text-3xl">Martial Arts</h1>
               <p className="bg-[#fbbf24] px-4 py-1">Sunday: 6:00pm-7:00pm</p>
             </div>
           </div>
           <div className="group h-[20rem] lg:col-span-2 flex items-end relative p-6 overflow-hidden cursor-pointer">
-            <div className="bg-[hsla(0,0%,100%,.3)]  rounded-tr-[50px] rounded-br-[50%] absolute top-[20%] -left-[3.125rem] w-[8.75rem] h-[4.375rem] rotate-[30deg] z-10 "></div>
-            <div className="absolute inset-0 bg-[url('/featuredClassImg/workout.jpg')] bg-cover bg-[50%] grayscale group-hover:grayscale-0 group-hover:scale-125 duration-300 ease-linear"></div>
+            {/* <div className="bg-[hsla(0,0%,100%,.3)]  rounded-tr-[50px] rounded-br-[50%] absolute top-[20%] -left-[3.125rem] w-[8.75rem] h-[4.375rem] rotate-[30deg] z-10 "></div> */}
+            <div className="absolute inset-0 $ grayscale group-hover:grayscale-0 group-hover:scale-125 duration-300 ease-linear">
+              <Image
+                src="/featuredClassImg/workout.jpg"
+                alt="Cycling"
+                layout="fill"
+                quality={100}
+                placeholder="blur"
+                blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADA..."
+                style={{
+                  objectFit: "cover",
+                  // zIndex: 0,
+                  //   // position: 'absolute',
+                  // top: 0,
+                  // left: 0,
+                  // height: "100%",
+                  // width: "100%",
+                }}
+              />
+            </div>{" "}
             <div className="space-y-4 text-white grayscale-0">
               <h1 className="font-bold text-3xl">Workout</h1>
               <p className="bg-[#fbbf24] px-4 py-1">Monday: 4:00pm-5:00pm</p>
