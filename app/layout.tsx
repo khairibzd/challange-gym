@@ -12,6 +12,7 @@ import { Roboto } from "next/font/google";
 import Footer from "@/components/Footer";
 import { TogglerProvider } from "@/components/context/toggler";
 import AboutSidebar from "@/components/aboutSideBar";
+import NFooter from "@/components/NewFooter";
 
 export const metadata: Metadata = {
   title: {
@@ -57,7 +58,8 @@ export default function RootLayout({
             <main>{children}</main>
 
             {/* <footer className="w-full flex items-center justify-center py-3"> */}
-            <Footer />
+            {/* <Footer /> */}
+            <NFooter/>
             {/* </footer> */}
             {/* </div> */}
           </Providers>

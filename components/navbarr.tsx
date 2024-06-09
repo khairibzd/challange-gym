@@ -2,7 +2,6 @@
 import Image from "next/image";
 import React from "react";
 import {Navbar, NavbarBrand, NavbarMenuToggle, NavbarMenuItem, NavbarMenu, NavbarContent, NavbarItem, Button} from "@nextui-org/react";
-import { ThemeSwitch } from "./theme-switch";
 import { siteConfig } from "@/config/site";
 import Link from "next/link";
 import { Roboto } from 'next/font/google'
@@ -16,18 +15,19 @@ export  function Navbarr() {
 
 
   return (
-      <Navbar isBlurred= {true}  
+      <Navbar  
             maxWidth="xl"
      isMenuOpen={isMenuOpen}
      onMenuOpenChange={setIsMenuOpen}
-    //  style={{
-    //   background: 'rgba(255, 255, 255, 0.15)',
-    //   boxShadow: '0 8px 32px 0 rgba(31, 38, 135, 0.37)',
-    //   backdropFilter: 'blur(5px)',
-    //   WebkitBackdropFilter: 'blur(5px)',
-    //   // borderRadius: '10px',
-    //   // border: '1px solid rgba(255, 255, 255, 0.18)',
-    //  }}
+     style={{
+      background: 'rgba(255, 255, 255, 0.15)',
+      color: "white",
+      // boxShadow: '0 8px 32px 0 rgba(31, 38, 135, 0.37)',
+      backdropFilter: 'blur(5px)',
+      // WebkitBackdropFilter: 'blur(5px)',
+      // borderRadius: '10px',
+      // border: '1px solid rgba(255, 255, 255, 0.18)',
+     }}
    >
      <NavbarContent className="sm:hidden" justify="start">
        <NavbarMenuToggle aria-label={isMenuOpen ? "Close menu" : "Open menu"} />
@@ -50,15 +50,14 @@ export  function Navbarr() {
      <NavbarContent className="hidden sm:flex gap-10" justify="start">
        <NavbarBrand>
        <Image 
-         width={90}
-         height={30}
+         width={60}
+         height={20}
          src="/logo-gym-removebg-preview.png"
-     
      alt={"test"}
       />
      
 
-       <p className="font-bold text-inherit">CHALLENGE GYM</p>
+       <p className="ml-4 font-bold text-inherit">CHALLENGE GYM</p>
        </NavbarBrand>
    </NavbarContent>
        <NavbarContent className="hidden sm:flex gap-10" justify="center">

@@ -17,10 +17,10 @@ function AboutSidebar() {
         } z-[1000] duration-300 ease-linear`}
       >
         <div
-          className="hidden lg:block absolute inset-y-0 left-0 right-[30%]"
+          className="hidden lg:block  absolute inset-y-0 left-0 right-[30%]"
           onClick={() => setAboutSidebar(false)}
         ></div>
-        <div className="absolute inset-0 lg:left-[70%] bg-white z-[1001] p-8 overflow-y-auto space-y-12">
+        <div style={{background: 'linear-gradient(90deg, #304352 0%, #d7d2cc 100%)' }} className="absolute inset-0 lg:left-[70%] z-[1001] text-white p-8 overflow-y-auto space-y-12">
           <div className="flex items-center justify-between">
             <div className="flex items-center">
               <Image

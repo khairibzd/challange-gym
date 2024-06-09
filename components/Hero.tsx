@@ -1,11 +1,10 @@
 import Link from "next/link";
-import NextButton from "./button";
 import AppBgImg from "./bgImg";
 import AboutSidebar from "./aboutSideBar";
 import { useTogglerContext } from "./context/toggler";
+import LandingButton from "./button";
 
 export default function Hero() {
-  const {  setAboutSidebar } = useTogglerContext();
 
   return (
     <>
@@ -14,7 +13,7 @@ export default function Hero() {
         {/* <AboutSidebar/> */}
         
         <div className="relative inline-block text-center m-auto">
-          <h1 className="font-bold text-[2.5rem] lg:text-6xl flex flex-col gap-2 text-center leading-snug lg:space-y-2">
+          <h1 className="font-bold text-[2.5rem] md:text-7xl flex flex-col gap-2 text-center leading-snug lg:space-y-2">
             <span className="text-[#facc15]">MAKE YOUR BODY</span>
             <span className="font-normal text-white">FIT & PERFECT</span>
             {/* <AboutSidebar/> */}
@@ -29,7 +28,7 @@ export default function Hero() {
             href="/"
             className="flex items-center justify-center gap-2 py-4"
           >
-            <NextButton />
+            <LandingButton/>
             
           </Link>
         </div>

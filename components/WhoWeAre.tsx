@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import NextButton from "./button";
 import RadialGradient from "./magicui/radial-gradient";
 import LinearGradient from "./magicui/linear-gradient";
 import Lenis from "lenis";
+import LandingButton from "./button";
 
 function WhoWeAre() {
   
@@ -128,7 +128,7 @@ function WhoWeAre() {
             </div>
             <div>
               <Link href="/">
-                <NextButton />
+                <LandingButton />
               </Link>
             </div>
           </div>

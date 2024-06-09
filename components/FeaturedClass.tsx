@@ -2,8 +2,8 @@ import Image from "next/image";
 
 function FeaturedClass() {
   return (
-    <>
-      <div className="px-8 py-16 flex flex-col gap-8 max-w-screen-xl m-auto lg:px-0 lg:py-24">
+    <section className="bg-[#252525]">
+      <div className="px-8 py-16 flex flex-col  gap-8 max-w-screen-xl m-auto lg:px-0 lg:py-24">
         {/* <div className="relative">
           <Image
             src="/pexels-anush-1229356.jpg"
@@ -16,7 +16,7 @@ function FeaturedClass() {
             OUR FEATURED CLASS
           </p>
         </div> */}
-        <h1 className="font-bold text-4xl text-center">
+        <h1 className="text-white font-bold text-4xl text-center">
           We Are Offering Best Flexible Classes
         </h1>
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 lg:gap-4 lg:mt-4">
@@ -72,7 +72,7 @@ function FeaturedClass() {
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
 }
 

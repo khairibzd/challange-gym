@@ -1,7 +1,5 @@
-// components/NextButton.js
 import React from 'react';
-
-const NextButton = () => {
+const LandingButton = () => {
   return (
     <button className="cta">
       <span className="span">OUR CLASSES</span>
@@ -18,4 +16,7 @@ const NextButton = () => {
   );
 };
 
-export default NextButton;
+
+
+
+export default LandingButton;
