@@ -17,11 +17,11 @@ const Contact = () => {
         />
         <div className="absolute inset-0 bg-black/60"></div>
         <h1 className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] md:left-[30%] lg:left-[25%] text-white uppercase text-6xl font-bold sm:text-6xl md:text-7xl tracking-wide text-center">
-          Contact us
+          <span className="text-[#facc15]">Contact</span> us
         </h1>
       </div>
-      <div className="bg-[#252525]">
-        <section className="bg-[#292524] flex flex-col gap-10 md:flex-row py-24 px-10 container max-w-screen-xl mx-auto">
+      <div className="bg-[#171717]">
+        <section className="flex flex-col gap-10 md:flex-row py-24 px-10 container max-w-screen-xl mx-auto">
           <Location />
           <ContactForm />
         </section>

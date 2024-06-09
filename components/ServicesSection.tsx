@@ -5,7 +5,7 @@ import { cn } from "@/config/cn"
 
 const ServicesSection = () => {
 	return (
-		<section className="relative bg-black py-44 px-10 w-full">
+		<section className="relative bg-[#262626] py-44 px-10 w-full">
 			<div className="max-w-screen-xl mx-auto">
 				<div className=" flex flex-col justify-center items-center mb-10">
 					<h2 className="text-white text-center text-5xl uppercase tracking-wide">

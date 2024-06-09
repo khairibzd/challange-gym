@@ -49,42 +49,42 @@ function AboutSidebar() {
             <h1 className="font-bold text-xl">Gallery</h1>
             <div className="grid grid-cols-3 gap-4">
               <Image
-                src="/pexels-anush-1229356.jpg"
+                src="/featuredClassImg/materialsArt.jpg"
                 alt="gallery"
                 width={100}
                 height={100}
                 className="w-full h-auto rounded-xl"
               />
               <Image
-                src="/pexels-anush-1229356.jpg"
+                src="/featuredClassImg/materialsArt.jpg"
                 alt="gallery"
                 width={100}
                 height={100}
                 className="w-full h-auto rounded-xl"
               />
               <Image
-                src="/pexels-anush-1229356.jpg"
+                src="/featuredClassImg/materialsArt.jpg"
                 alt="gallery"
                 width={100}
                 height={100}
                 className="w-full h-auto rounded-xl"
               />
               <Image
-                src="/pexels-anush-1229356.jpg"
+                src="/featuredClassImg/materialsArt.jpg"
                 alt="gallery"
                 width={100}
                 height={100}
                 className="w-full h-auto rounded-xl"
               />
               <Image
-                src="/pexels-anush-1229356.jpg"
+                src="/featuredClassImg/materialsArt.jpg"
                 alt="gallery"
                 width={100}
                 height={100}
                 className="w-full h-auto rounded-xl"
               />
               <Image
-                src="/pexels-anush-1229356.jpg"
+                src="/featuredClassImg/materialsArt.jpg"
                 alt="gallery"
                 width={100}
                 height={100}

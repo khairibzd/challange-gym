@@ -6,7 +6,7 @@ import PurchaseButton from "./PricingBtn";
 function PricingChart() {
   return (
     <section id="pricing-chart">
-      <div className="bg-[#252525] px-8 py-16 text-center  relative space-y-16">
+      <div className="bg-[#171717] px-8 py-16 text-center  relative space-y-16">
         {/* <p className="text-white relative z-10 font-bold text-center mb-4">
             PRICING CHART
           </p> */}
@@ -23,7 +23,7 @@ function PricingChart() {
           <div className="flex flex-col group">
             <div className="relative">
               <Image
-                src="/pexels-anush-1229356.jpg"
+                src="/pricing/beginner.jpg"
                 alt="beginners"
                 width={500}
                 height={500}
@@ -55,7 +55,7 @@ function PricingChart() {
           <div className="flex flex-col group">
             <div className="relative">
               <Image
-                src="/pexels-anush-1229356.jpg"
+                src="/pricing/basics.jpg"
                 alt="basic"
                 width={500}
                 height={500}
@@ -84,7 +84,7 @@ function PricingChart() {
           <div className="flex flex-col group">
             <div className="relative">
               <Image
-                src="/pexels-anush-1229356.jpg"
+                src="/pricing/advanced.jpg"
                 alt="advance"
                 width={500}
                 height={500}

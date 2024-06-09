@@ -11,7 +11,8 @@ export default function Hero() {
       <div className="relative h-[112vh] flex justify-center items-center text-white p-8">
         <AppBgImg />
         {/* <AboutSidebar/> */}
-        
+        <div className="absolute inset-0 bg-black/60"></div>
+
         <div className="relative inline-block text-center m-auto">
           <h1 className="font-bold text-[2.5rem] md:text-7xl flex flex-col gap-2 text-center leading-snug lg:space-y-2">
             <span className="text-[#facc15]">MAKE YOUR BODY</span>

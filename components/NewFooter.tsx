@@ -9,7 +9,7 @@ const NFooter = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="px-8 pt-16 text-center lg:text-left bg-[#29282d] text-white">
+    <footer className="px-8 pt-16 text-center lg:text-left bg-[#0a0a0a] text-white">
       <div className="max-w-screen-xl mx-auto flex flex-col lg:flex-row ">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
           <div className="space-y-8">
