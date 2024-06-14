@@ -20,10 +20,10 @@ function FeaturedClass() {
           We Are Offering Best Flexible Classes
         </h1>
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-6 lg:gap-4 lg:mt-4">
-          <div className="group h-[20rem] lg:col-span-2 flex items-end relative p-6 overflow-hidden cursor-pointer">
+          <div className="group rounded-lg h-[20rem] lg:col-span-2 flex items-end relative p-6 overflow-hidden cursor-pointer">
             {/* <div className="bg-[hsla(0,0%,100%,.3)]  rounded-tr-[50px] rounded-br-[50%] absolute top-[20%] -left-[3.125rem] w-[8.75rem] h-[4.375rem] rotate-[30deg] z-10 after:absolute after:scale-[.7] "></div> */}
             {/* <div className="absolute inset-0 bg-[url('/featuredClassImg/cycling.jpg')] bg-cover bg-[50%] grayscale group-hover:grayscale-0 group-hover:scale-125 duration-300 ease-linear"></div> */}
-            <div className="absolute inset-0 $ grayscale group-hover:grayscale-0 group-hover:scale-125 duration-300 ease-linear">
+            <div className=" overflow-hidden absolute inset-0 $ grayscale group-hover:grayscale-0 group-hover:scale-125 duration-300 ease-linear">
               <Image
                 src="/featuredClassImg/cycling.jpg"
                 alt="Cycling"
@@ -31,10 +31,10 @@ function FeaturedClass() {
                 placeholder="blur"
                 blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADA..."
                 quality={100}
-                
                 style={{
                   objectFit: "cover",
-
+                  // borderRadius: "20px",
+                  // overflow: "hidden",
                   height: "100%",
                   width: "100%",
                 }}
@@ -48,9 +48,9 @@ function FeaturedClass() {
               </p>
             </div>
           </div>
-          <div className="group h-[20rem] flex items-end relative p-6 overflow-hidden cursor-pointer">
+          <div className="rounded-lg group h-[20rem] flex items-end relative p-6 overflow-hidden cursor-pointer">
             {/* <div className="bg-[hsla(0,0%,100%,.3)] rounded-tr-[50px] rounded-br-[50%] absolute top-[20%] -left-[3.125rem] w-[8.75rem] h-[4.375rem] rotate-[30deg] z-10 "></div> */}
-            <div className="absolute inset-0 $ grayscale group-hover:grayscale-0 group-hover:scale-125 duration-300 ease-linear">
+            <div className=" overflow-hidden absolute inset-0 $ grayscale group-hover:grayscale-0 group-hover:scale-125 duration-300 ease-linear">
               <Image
                 src="/featuredClassImg/karate.jpg"
                 alt="Cycling"
@@ -71,9 +71,9 @@ function FeaturedClass() {
               <p className="bg-[#fbbf24] px-4 py-1">Friday: 10:00am-11:00am</p>
             </div>
           </div>
-          <div className="group h-[20rem] flex items-end relative p-6 overflow-hidden cursor-pointer">
+          <div className="rounded-lg group h-[20rem] flex items-end relative p-6 overflow-hidden cursor-pointer">
             {/* <div className="bg-[hsla(0,0%,100%,.3)]  rounded-tr-[50px] rounded-br-[50%] absolute top-[20%] -left-[3.125rem] w-[8.75rem] h-[4.375rem] rotate-[30deg] z-10 "></div> */}
-            <div className="absolute inset-0 $ grayscale group-hover:grayscale-0 group-hover:scale-125 duration-300 ease-linear">
+            <div className="overflow-hidden absolute inset-0 $ grayscale group-hover:grayscale-0 group-hover:scale-125 duration-300 ease-linear">
               <Image
                 src="/featuredClassImg/power.jpg"
                 alt="Cycling"
@@ -94,9 +94,9 @@ function FeaturedClass() {
               <p className="bg-[#fbbf24] px-4 py-1">Saturday: 9:00am-10:00am</p>
             </div>
           </div>
-          <div className="group h-[20rem] flex items-end relative p-6 overflow-hidden cursor-pointer">
+          <div className=" rounded-lg group h-[20rem] flex items-end relative p-6 overflow-hidden cursor-pointer">
             {/* <div className="bg-[hsla(0,0%,100%,.3)]  rounded-tr-[50px] rounded-br-[50%] absolute top-[20%] -left-[3.125rem] w-[8.75rem] h-[4.375rem] rotate-[30deg] z-10 "></div> */}
-            <div className="absolute inset-0 $ grayscale group-hover:grayscale-0 group-hover:scale-125 duration-300 ease-linear">
+            <div className="overflow-hidden absolute inset-0 $ grayscale group-hover:grayscale-0 group-hover:scale-125 duration-300 ease-linear">
               <Image
                 src="/featuredClassImg/meditation.jpg"
                 alt="Cycling"
@@ -117,9 +117,9 @@ function FeaturedClass() {
               <p className="bg-[#fbbf24] px-4 py-1">Friday: 1:00pm-2:00pm</p>
             </div>
           </div>
-          <div className="group h-[20rem] flex items-end relative p-6 overflow-hidden cursor-pointer">
+          <div className="rounded-lg group h-[20rem] flex items-end relative p-6 overflow-hidden cursor-pointer">
             {/* <div className="bg-[hsla(0,0%,100%,.3)]  rounded-tr-[50px] rounded-br-[50%] absolute top-[20%] -left-[3.125rem] w-[8.75rem] h-[4.375rem] rotate-[30deg] z-10 "></div> */}
-            <div className="absolute inset-0 $ grayscale group-hover:grayscale-0 group-hover:scale-125 duration-300 ease-linear">
+            <div className="overflow-hidden absolute inset-0 $ grayscale group-hover:grayscale-0 group-hover:scale-125 duration-300 ease-linear">
               <Image
                 src="/featuredClassImg/materialsArt.jpg"
                 alt="Cycling"
@@ -143,9 +143,9 @@ function FeaturedClass() {
               <p className="bg-[#fbbf24] px-4 py-1">Sunday: 6:00pm-7:00pm</p>
             </div>
           </div>
-          <div className="group h-[20rem] lg:col-span-2 flex items-end relative p-6 overflow-hidden cursor-pointer">
+          <div className="rounded-lg group h-[20rem] lg:col-span-2 flex items-end relative p-6 overflow-hidden cursor-pointer">
             {/* <div className="bg-[hsla(0,0%,100%,.3)]  rounded-tr-[50px] rounded-br-[50%] absolute top-[20%] -left-[3.125rem] w-[8.75rem] h-[4.375rem] rotate-[30deg] z-10 "></div> */}
-            <div className="absolute inset-0 $ grayscale group-hover:grayscale-0 group-hover:scale-125 duration-300 ease-linear">
+            <div className="overflow-hidden absolute inset-0 $ grayscale group-hover:grayscale-0 group-hover:scale-125 duration-300 ease-linear">
               <Image
                 src="/featuredClassImg/workout.jpg"
                 alt="Cycling"

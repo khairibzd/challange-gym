@@ -19,6 +19,7 @@ import AboutSidebar from "@/components/aboutSideBar";
 import ServicesSection from "@/components/ServicesSection";
 import QuoteSection from "@/components/QuoteSection";
 import PricingChart from "@/components/PricingChart";
+import Bmi from "@/components/bmi";
 
 export default function Home() {
   // useEffect(() => {
@@ -39,6 +40,7 @@ export default function Home() {
       <FeaturedClass />
       <QuoteSection/>
       <PricingChart/>
+      <Bmi/>
 
     </main>
   );

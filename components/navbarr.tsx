@@ -86,7 +86,7 @@ export  function Navbarr() {
         <NavbarItem>
         <button
             onClick={() => setAboutSidebar(true)}
-            className="text-2xl hover:text-[#FF0336] ease-in duration-200"
+            className="text-2xl hover:text-[#fbbf24] ease-in duration-200"
           >
             <i className="fa-regular fa-chart-bar"></i>
           </button>

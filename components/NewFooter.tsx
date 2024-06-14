@@ -27,25 +27,25 @@ const NFooter = () => {
             <div className="flex items-center gap-4 justify-center lg:justify-start">
               <Link
                 href="https://www.facebook.com"
-                className="bg-[#1e40af] w-12 h-12 text-lg flex items-center justify-center rounded-full hover:bg-[#fcd34d] hover:text-white duration-200 ease-linear"
+                className="bg-[#fbbf24] w-12 h-12 text-lg flex items-center justify-center rounded-full hover:bg-[#fcd34d] hover:text-white duration-200 ease-linear"
               >
                 <i className="fa-brands fa-facebook-f"></i>
               </Link>
               <Link
                 href="https://www.twitter.com"
-                className="bg-[#1e40af] w-12 h-12 text-lg flex items-center justify-center rounded-full hover:bg-[#fcd34d] hover:text-white duration-200 ease-linear"
+                className="bg-[#fbbf24] w-12 h-12 text-lg flex items-center justify-center rounded-full hover:bg-[#fcd34d] hover:text-white duration-200 ease-linear"
               >
                 <i className="fa-brands fa-twitter"></i>
               </Link>
               <Link
                 href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-                className="bg-[#dc2626] w-12 h-12 text-lg flex items-center justify-center rounded-full hover:bg-[#fcd34d] hover:text-white duration-200 ease-linear"
+                className="bg-[#fbbf24] w-12 h-12 text-lg flex items-center justify-center rounded-full hover:bg-[#fcd34d] hover:text-white duration-200 ease-linear"
               >
                 <i className="fa-brands fa-pinterest-p"></i>
               </Link>
               <Link
                 href="https://www.youtube.com"
-                className="bg-[#dc2626] w-12 h-12 text-lg flex items-center justify-center rounded-full hover:bg-[#fcd34d] hover:text-white duration-200 ease-linear"
+                className="bg-[#fbbf24] w-12 h-12 text-lg flex items-center justify-center rounded-full hover:bg-[#fcd34d] hover:text-white duration-200 ease-linear"
               >
                 <i className="fa-brands fa-youtube"></i>
               </Link>
@@ -124,11 +124,11 @@ const NFooter = () => {
           Copyright &copy; <span>{currentYear}</span> All rights reserved |
           Website developed by{" "}
           <a
-            href={"https://portfolio-khairi.vercel.app/"}
+            href={"https://total-tech.vercel.app/"}
             target="_blank"
             className="font-bold text-[#717274] hover:text-white duration-300"
           >
-            BOUZID KHAIRI <span className="sr-only">Opens in a new tab</span>
+            TOTALTECH <span className="sr-only">Opens in a new tab</span>
           </a>
         </p>
       </div>

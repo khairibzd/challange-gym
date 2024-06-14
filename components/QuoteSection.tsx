@@ -72,19 +72,19 @@ const QuoteSection: React.FC = () => {
         alt="Close-up"
         src="/pricing/advanced.jpg"
         fill
-        // placeholder="blur"
-        // blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADA..."
+        placeholder="blur"
+        blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADA..." // Use an actual base64-encoded image here
         loading="lazy"
-
         quality={80}
         style={{
           objectFit: "cover",
           height: "100%",
-          zIndex: -1000,
-          
           width: "100%",
+          zIndex: -1,
         }}
       />
+     
+
       <div className="relative flex justify-center items-center h-full w-full">
         <div className="max-w-screen-xl mx-auto w-full px-5 xs:px-10">
           <Slider {...settings} className="cursor-grab max-w-[100%]">
